@@ -73,3 +73,13 @@ For tasks requiring formal theorem proving (e.g., Lean 4) or advanced mathematic
 | **DeepSeek Prover v2 (671B)** | $0.70 | $2.50 | 164K | Novita AI |
 
 > **Note on DeepSeek Prover v2 (7B):** While the 671B MoE variant is available via serverless APIs like Novita AI, the smaller **7B variant** is currently not widely supported by mainstream inference providers and typically requires **self-hosting** (e.g., on Linux with vLLM or Hugging Face Transformers).
+
+## Recommended Easy-Access Providers
+
+If you want to avoid the complexity of AWS, GCP, or Azure, the following specialized providers offer **Qwen3.5-9B** with simple signup (Email/GitHub) and pay-as-you-go billing:
+
+| Provider | Qwen3.5-9B Price (In/Out) | Key Advantage |
+| :--- | :--- | :--- |
+| **OpenRouter** | $0.05 / $0.15 | Unified API, routes to multiple providers for max uptime. |
+| **Together AI** | $0.10 / $0.15 | High-speed dedicated inference, excellent dev experience. |
+| **Novita AI** | $0.07 / $0.27 | Very competitive pricing for FP8 variants and math models. |
