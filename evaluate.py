@@ -29,7 +29,7 @@ def call_llm(prompt):
                 "https://openrouter.ai/api/v1/chat/completions",
                 headers=headers,
                 json=data,
-                timeout=60
+                timeout=180
             )
             response.raise_for_status()
             return response.json()["choices"][0]["message"]["content"]
