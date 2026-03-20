@@ -1,0 +1,10 @@
+Performance Report:
+Model: qwen/qwen3.5-9b
+
+data/val.jsonl:
+  Accuracy: 100.00% (1/1)
+  Valid responses: 1/1
+
+data/train.jsonl:
+  Accuracy: 100.00% (1/1)
+  Valid responses: 1/1
